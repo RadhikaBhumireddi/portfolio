@@ -7,11 +7,14 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
     <div className="bg-gray-950 text-white">
-      <Header />
+        <Analytics/>
+        <Header />
       <main>
         <Hero />
         <About />
