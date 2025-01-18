@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 const SocialLinks = () => {
   return (
     <div className="flex items-center space-x-4">
-      <a href="https://github.com" className="text-gray-300 hover:text-purple-400 transition-colors">
+      <a href="https://github.com/RadhikaBhumireddi" className="text-gray-300 hover:text-purple-400 transition-colors">
         <Github size={20} />
       </a>
       <a href="https://www.linkedin.com/in/radhika-bhumireddi/" className="text-gray-300 hover:text-purple-400 transition-colors">
